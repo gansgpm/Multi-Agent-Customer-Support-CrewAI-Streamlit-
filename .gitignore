@@ -1,0 +1,22 @@
+# ---- Secrets: never commit ----
+.env
+.env.*
+!.env.example
+
+# ---- Virtual environment ----
+venv/
+.venv/
+env/
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Output written by the Entry Agent (local run data) ----
+answers.txt
+
+# ---- OS / editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
